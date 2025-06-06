@@ -1,110 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
- 
-  <title>Personal Profile Card</title>
-  <style>
-    
-
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      background: #e6e9eb;
-      display: flex;
-      justify-content: center; 
-      
-    }
-
-    .card {
-      background: #f0f4f8;
-      border-radius: 12px;
-      
-      width: 50%;
-      max-width: 250px;
-      padding: 12px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      border: 1px solid #1d2327;
-    
-    }
-
-    .profile-pic {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 16px;
-      border: 1px solid #1d2327;
-    }
-
-    h2 {
-      color: #333;
-      margin-bottom: 5px;
-    }
-
-    p.bio {
-      font-size: 14px;
-      color: #3c3939;
-      text-align: center;
-      margin-bottom: 10px;
-    }
-
-    .contact-info {
-      font-size: 14px;
-      color: #5f7882;
-      text-align: center;
-      width: 100%;
-      z-index: 1;
-      margin-bottom: 16px;
-    }
-
-    .contact-info p {
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 4px 0;
-      color: #3c3939;
-      
-    }
-    .button {
-      background-color: #4e89ae;
-      color: white;
-      margin: 4px 0;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 6px;
-      }
-
-    .button:hover {
-      background-color: #215f98;
-    }
-
-  </style>
-  
+    <title>First HTML Form</title>
 </head>
 <body>
-  <div class="card">
-    <img src="/Users/pawanjangir/Downloads/pawan.jpeg" alt="Profile Photo" class="profile-pic" />
-    <h2>Pawan Jangir</h2>
-    <p class="bio">Associate Software Engineer</p>
-    
-    <div class="contact-info">
-      <p>📧 pawankjangir828@gmail.com</p>
-      <p>📱 +91-6367582941</p>
-    </div> 
+    <h1>HTML Form with All Input Types</h1>
+    <form action="./first.html" method="get" enctype="multipart/form-data">
+        <!-- <div>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required><br><br>
+        </div>
+        <div>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required><br><br>
+        </div>
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+        </div>
+        <div>
+            <label for="color">Favorite Color:</label>
+            <input type="color" id="color" name="color"><br><br>
+        </div>
+        <div>
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="time"><br><br>  
+        </div>  
+        <div>
+            <label for="name">Username:</label>
+            <input type="text" id="text" name="text" required><br><br>
+        </div> -->
+        <!-- <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+        </div>
+        <div>
+            <label for="textarea">Description:</label>
+            <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea><br><br>
+        </div>
+        <div>
+            <label for="select">Select Option:</label>
+            <select id="select" name="select">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select><br><br>
+        </div> -->
+        <!-- <div>
+            <label for="checkbox">Subscribe to Newsletter:</label>
+            <input type="checkbox" id="checkbox" name="checkbox"><br><br>
+        </div>
+        <div>
+            <label for="range">Select Range:</label>
+            <input type="range" id="range" name="range" min="0" max="100"><br><br>
+        </div>
+        <div>
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="search"><br><br>
+        </div>
+        <div>
+            <label for="month">Select Month:</label>
+            <input type="month" id="month" name="month"><br><br>
+        </div>          
+         -->
 
-    <select name="country">
-      <option value="">Select your country</option>
-      <option value="usa">United States</option>
-      <option value="uk">United Kingdom</option>
-      <option value="canada">Canada</option>
-      <option value="india">India</option>
-    </select> 
-
-    <button class="button" onclick="redirect">Contact Me</button>
-    
-  </div>
-  <!-- <script>
-        onclick = function() {
-            window.location.href = "mailto:   
-    </script> -->
+        <input type="submit" value="Register">
+    </form>
 </body>
+</html>
 </html>
