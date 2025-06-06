@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>Personal Profile Card</title>
+  <style>
+    
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #e6e9eb;
+      display: flex;
+      justify-content: center; 
+      
+    }
+
+    .card {
+      background: #f0f4f8;
+      border-radius: 12px;
+      
+      width: 50%;
+      max-width: 250px;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid #1d2327;
+    
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 16px;
+      border: 1px solid #1d2327;
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    p.bio {
+      font-size: 14px;
+      color: #3c3939;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .contact-info {
+      font-size: 14px;
+      color: #5f7882;
+      text-align: center;
+      width: 100%;
+      z-index: 1;
+      margin-bottom: 16px;
+    }
+
+    .contact-info p {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 4px 0;
+      color: #3c3939;
+      
+    }
+    .button {
+      background-color: #4e89ae;
+      color: white;
+      margin: 4px 0;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      }
+
+    .button:hover {
+      background-color: #215f98;
+    }
+
+  </style>
+  
+</head>
+<body>
+  <div class="card">
+    <img src="/Users/pawanjangir/Downloads/pawan.jpeg" alt="Profile Photo" class="profile-pic" />
+    <h2>Pawan Jangir</h2>
+    <p class="bio">Associate Software Engineer</p>
+    
+    <div class="contact-info">
+      <p>📧 pawankjangir828@gmail.com</p>
+      <p>📱 +91-6367582941</p>
+    </div> 
+
+    <select name="country">
+      <option value="">Select your country</option>
+      <option value="usa">United States</option>
+      <option value="uk">United Kingdom</option>
+      <option value="canada">Canada</option>
+      <option value="india">India</option>
+    </select> 
+
+    <button class="button" onclick="redirect">Contact Me</button>
+    
+  </div>
+  <!-- <script>
+        onclick = function() {
+            window.location.href = "mailto:   
+    </script> -->
+</body>
+</html>
